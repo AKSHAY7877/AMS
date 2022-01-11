@@ -1,0 +1,186 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Faculty Registration Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 800px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+	.center
+	{
+		
+		height: 100%;
+		width: 50%;
+	}
+	.tpo
+	{
+		background-color:pink;
+	}
+
+
+	.imgcontainer {
+  			text-align: center;
+  			margin: 24px 0 12px 0;
+		      }
+
+	img.avatar {
+  			width: 20%;
+  			border-radius: 50%;
+		   }
+  </style>
+</head>
+<body>
+
+	<div class="container-fluid">			<!--Side Vali div-->
+ 	 <div class="row content">			
+ 	   <div class="col-sm-3 sidenav">
+ 	     <h4 align="center"><b>MENU</b></h4>
+ 	     <ul class="nav nav-pills nav-stacked">
+ 	       <li class="active"><a href="home.html">Home</a></li>
+ 	
+	        <li><a href="http://www.piet.poornima.org/" target="blank">About us</a></li>
+	        <li><a href="http://www.piet.poornima.org/contacts" target="blank">Contact</a></li>
+		<li><a href="http://www.piet.poornima.org/facility" target="blank">Facilities</a></li>
+	      </ul><br>
+  	  </div>
+
+
+    <div class="col-sm-9">				<!--Center vali div-->
+    	<div>
+<table height="50%" width="100%">
+	<tr>
+		<td align="center">
+     <img src="piet.jpg" height="50%" width="50%">
+	</td>
+	</tr>
+</table>
+	</div>
+<hr style="height:2px;border-width:0;color:gray;background-color:black">
+
+
+
+
+
+	<!---            <center><b><h1>Attendance Management Portal</h1></b></center>		--->
+		<center><b><h1>Faculty Login</h1></b></center>
+
+
+		<div class="imgcontainer">
+    <img src="avatar.png" alt="Avatar" class="avatar">
+  </div>
+<br>
+
+<div>
+	<form action="google.com" method="post">
+	<table align="center">
+	<tr>	<td><label><b><h4>Username &nbsp; &nbsp; &nbsp;</h4></b></label></td>
+		<td><input type="text" name = "username" value="" placeholder="Enter poornima mail Id" size=32></td>
+	</tr>
+			
+	<tr>	<td><label><b><h4>Password	</h4></b></label></td>
+		<td><input type="password" name="password" value="" placeholder="Enter you password" size=32></td>
+	</tr>
+
+
+
+
+	<tr>	
+	<!---	<td><input type="password" name="password" value="" placeholder="Enter you password" size=32></td>	--->
+	
+
+	 <td>	<label><b><h4>Choose Department	</h4></b></label></td>
+  <td><select id="cars" name="cars" >
+    <option value="None">None</option>
+    <option value="Computer Science Department">Computer Science Department</option>
+    <option value="Electrical Department">Electrical Department</option>
+    <option value="Civil Department">Civil Department</option>
+    <option value="Mechanical Department">Mechanical Department</option>
+  </select></td>
+
+	</tr>
+
+
+
+
+	<tr>	
+	<!---	<td><input type="password" name="password" value="" placeholder="Enter you password" size=32></td>	--->
+	
+
+	 <td>	<label><b><h4>Choose Subject	</h4></b></label></td>
+  <td><select id="subject" name="subject" >
+    <option value="None">None</option>
+    <option value="Advance Engineering Mathematics">Advance Engineering Mathematics</option>
+    <option value="Software Engineering">Software Engineering</option>
+    <option value="Data Structure and Algorithm">Data Structure and Algorithm</option>
+    <option value="Object Oriented Programming">Object Oriented Programming</option>
+    <option value="Technical Communication">Technical Communication</option>
+     <option value="Software Engineering">Software Engineering</option>
+ </select></td>
+
+	</tr>
+
+	<tr>
+		<td align="center"><a href='faculty_page.html' target="blank">Login </a></td>
+	</tr>
+
+	
+	
+	</table>
+	</form>
+</div>
+
+	
+
+
+
+
+
+     </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
